@@ -1,0 +1,100 @@
+/* DO NOT EDIT CSS CODE */
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Oswald|Permanent+Marker|Montserrat');
+body {
+  margin: 0;
+  background-color: #eee;
+}
+
+html, h1, h2, p {
+  font-family: 'Shadows Into Light', cursive;
+  color: DarkRed;
+  font-size: 24px;
+}
+
+main > div > article > section > header > h2 {
+  color: #668284;
+  font-size: 24px;
+}
+
+main > div > article > section > p {
+  font-size: 16px;
+}
+
+main > div > article > section > header > h2, 
+main > div > article > section p, 
+footer > div > nav > p {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+main > div > article {
+  overflow: visible;
+}
+
+main > div > article > section {
+  margin-left: -200%;
+  width: 500%;
+  border-bottom: 3px solid #668284;
+}
+
+main > div > article > section:last-child {
+  border-bottom: none;
+}
+
+header > div > h1 {
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+}
+
+header > div > nav {
+  margin: 0 0 10px 10px;
+}
+
+header > div > nav > a {
+  padding: 0 15px 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #493736;
+}
+
+header > div > nav a:hover {
+  color: #668284;
+}
+
+nav,
+div {
+  width: 300px;
+  margin: auto;
+}
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main > div > article > section p {
+  color: #493736;
+}
+
+main > div {
+  border: 3px solid #668284;
+  padding: 10px;
+  background-color: #B9D7D9;
+  overflow: hidden;
+}
+
+footer > div > nav > p {
+  color: #668284;
+  font-size: 16px;
+}
+
+main > div > article > section > footer > p {
+  font-size: 16px;
+}
